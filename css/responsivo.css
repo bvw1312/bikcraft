@@ -1,0 +1,160 @@
+/*Tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px){
+  /*Header*/
+  .intro{
+    margin-top: 0px;
+  }
+
+  /*Intro Interna*/
+  .intro-int{
+    margin-top: 86px;
+  }
+  
+  /*Qualidade Home*/
+  .qualidade:after{
+    right: 66px;
+  }
+
+  .qualidade_lista li{
+    padding: 10px;
+  }
+
+  /*Produtos*/
+  .produtos-item h2{
+    top: -150px;
+    margin-bottom: -55px;
+  }
+
+  .produto-icone{
+    padding: 40px 0;
+  }
+
+  .produto-icone img{
+    margin-left: 10px;  
+  }
+
+  .produto-info{
+    height: 220px ;
+  }
+
+  .produto-info p{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 8px;
+  }
+
+  .produto-info ul li{
+    font-size: 14px;
+    width: 138px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 4px;
+  }
+
+  .produto-info .itens{
+    margin-top: 15px;
+  }
+
+}
+
+/*Smartphone*/
+@media only screen and (max-width: 787px){
+  /*Header*/
+  .header{
+    position: relative;
+  }
+
+  .header img{
+    margin: 0 auto 20px 75px;
+  }
+
+  .header_menu{
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0;
+  }
+
+  .header_menu ul li a{
+    border: 4px solid #000;
+    width: 140px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover{
+    border-color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+  border-color: #fff;
+}
+
+/*Introdução*/
+.intro{
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+/*Intro Interna*/
+.intro-int{
+  margin-top: 0px;
+}
+
+/*Sobre*/
+.missao-sobre p{
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 0px;
+}
+
+.missao-sobre ul li{
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 0px;
+}
+
+/*Produtos*/
+  /*Produtos*/
+  .produtos-item h2{
+    top: -100px;
+    margin-bottom: -55px;
+  }
+
+  .produto-icone{
+    padding: 40px 0;
+  }
+
+  .produto-icone img{
+    margin-left: 45px;  
+  }
+
+  .produto-info{
+    height: 320px ;
+  }
+
+  .produto-info p{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px;
+  }
+
+  .produto-info ul li{
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 4px;
+  }
+
+  .produto-info .itens{
+    margin-top: 4px;
+  }
+  
+
+/*Qualidade*/
+.qualidade:after{
+  display: none;
+}
+}
