@@ -1,1 +1,1 @@
-Projeto curso origamid: https://bikcraft.bvw1312.repl.co/
+Projeto do curso Origamid: https://bikcraft.bvw1312.repl.co/
